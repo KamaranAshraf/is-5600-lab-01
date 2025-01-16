@@ -14,3 +14,83 @@ body {
 }
 
 /* add styles here */
+#topbar ul {
+   list-style: none;
+   display: flex;
+   justify-content: space-around;
+   background-color: #333;
+   padding: 10px;
+}
+#topbar ul li a {
+   color: white;
+   text-decoration: none;
+   font-weight: 600;
+   font-size: 1rem;
+}
+#topbar ul li a:hover {
+   color: #00bcd4;
+}
+
+header {
+   background: url('images/header-bg.jpg') no-repeat center center / cover;
+   color: rgb(230, 74, 74);
+   text-align: center;
+   padding: 50px 0;
+}
+header h2 {
+   font-size: 2rem;
+   font-weight: 800;
+}
+header p {
+   font-size: 1.2rem;
+   font-weight: 400;
+}
+
+main {
+   display: flex;
+   gap: 20px;
+   justify-content: center;
+   margin: 20px auto;
+}
+.card {
+   background: #f9f9f9;
+   border-radius: 8px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   overflow: hidden;
+   width: 300px;
+}
+.card img {
+   width: 100%;
+   height: auto;
+}
+.card h3 {
+   font-size: 1.5rem;
+   margin: 10px 0;
+}
+.card .description {
+   font-size: 1rem;
+   color: #666;
+}
+
+footer {
+   background-color: #333;
+   color: white;
+   padding: 20px;
+   text-align: center;
+}
+footer ul {
+   list-style: none;
+   padding: 0;
+}
+footer ul li {
+   display: inline;
+   margin: 0 10px;
+}
+footer ul li a {
+   color: white;
+   text-decoration: none;
+   font-size: 0.9rem;
+}
+footer ul li a:hover {
+   color: #00bcd4;
+}
